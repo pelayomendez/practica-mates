@@ -1,0 +1,12 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.vercel
+
+# Fotos personals de l'examen original (no es publiquen)
+img/IMG_*.jpeg
+img/IMG_*.jpg
