@@ -1,5 +1,7 @@
 // Pantalla inicial amb els tres botons principals.
 
+import { ShareButtons } from '../components/ShareButtons'
+
 interface Props {
   onOriginal: () => void
   onVariant: () => void
@@ -33,6 +35,8 @@ export function HomeScreen({ onOriginal, onVariant, onResults, hasResults }: Pro
             Veure resultats
           </button>
         </div>
+
+        <ShareButtons />
       </div>
     </div>
   )
